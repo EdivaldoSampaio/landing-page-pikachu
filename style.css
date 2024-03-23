@@ -24,7 +24,6 @@ body{
     margin: auto;
 }
 header{
-    background-color: aqua;
     margin-top: 70px;
 }
 header a{
@@ -44,6 +43,18 @@ main{
     background-color: tomato;
     flex-grow: 1;
 }
+
+.title{
+    background-color: green;
+    grid-column: 1/-1;
+}
+.description{
+    background-color: pink;
+}
+.action{
+    background-color: aqua;
+}
+
 footer{
     background-color: plum;
     margin-bottom: 24px;
